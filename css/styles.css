@@ -156,3 +156,49 @@ footer address ul {
 }
 
 /* ---- ПОРТФОЛИО ---- */
+
+.portfolio-title {
+  display: none;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #f5f4fa;
+}
+.btn1 {
+  list-style: none;
+}
+.btn:hover,
+.btn:focus {
+  background: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+.projects-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  list-style: none;
+}
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color-links);
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-color-subtitle);
+  list-style: none;
+}
