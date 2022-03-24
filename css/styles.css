@@ -1,14 +1,13 @@
 :root {
-  --main-color-text: #212121;
+  --main-color-subtitle: #757575;
+  --hover-color-links: #2196f3;
   --second-color-text: #ffffff;
   --main-button-color: #2196f3;
   --main-color-links: #212121;
-  --main-color-subtitle: #757575;
-  --hover-color-links: #2196f3;
+  --main-color-text: #212121;
 }
 
 /* Індивідуальні стилі */
-
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color-text);
@@ -16,36 +15,39 @@ body {
   line-height: 1.4;
   letter-spacing: 0.03em;
 }
+/*text-decoration: none код,який заберає підкреслення у тексті або додає*/
 a {
   text-decoration: none;
   color: var(--main-color-links);
 }
+/* cursor: pointer, код,вигляд курсора */
 button {
   cursor: pointer;
 }
-
-/* Логотип */
-
+/* Логотип, код для двох тегів Header-Footer*/
 header .logo,
 footer .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
-
 header .logo span,
 footer .logo span {
   color: var(--hover-color-links);
 }
-
 /* Шапка_Контакти */
 
+/* List-style-елемент який (прибирає маркування у списку) та задає 
+маркування, при потребі*/
 header .top-right-nav,
 header .top-left-nav {
   font-weight: 500;
   list-style: none;
 }
+/* hover- елемент, який фокусує під час наведення курсора
+на відповідний елемент*/
 header .top-right-nav li > a:hover,
 header .top-left-nav li > a:hover,
+/* focus- елемент, який фокусує при взаємодії з клавішою Tab*/
 header .top-right-nav li > a:focus,
 header .top-left-nav li > a:focus {
   color: var(--hover-color-links);
@@ -83,6 +85,8 @@ main .content button {
 }
 
 /*--Main--*/
+/*--display: none; прибирає наявний(ні) елементи на сторінці, але при цьому
+у коді цей фрагмент тексту є*/
 
 .hide {
   display: none;
@@ -90,7 +94,7 @@ main .content button {
 .quality,
 .aboutwork ul,
 .ourteam ul,
-section .main-nav,
+.section .main-nav,
 .portfolio {
   list-style: none;
 }
@@ -104,7 +108,7 @@ section .main-nav,
 }
 
 /*--Чем мы занимаемся--*/
-
+/*--text-align: Розміщення тексту (зліва, центр, справа)--*/
 .aboutwork h2,
 .ourteam h2 {
   font-weight: 700;
