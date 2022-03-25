@@ -109,8 +109,8 @@ header .top-left-nav li > a {
 
 /*--Чем мы занимаемся--*/
 /*--text-align: Розміщення тексту (зліва, центр, справа)--*/
-.aboutwork h2,
-.ourteam h2 {
+.aboutwork > h2,
+.ourteam > h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
