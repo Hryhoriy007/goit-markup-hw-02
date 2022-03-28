@@ -33,6 +33,10 @@ header .logo span,
 footer .logo span {
   color: var(--hover-color-links);
 }
+.top-right-nav .current {
+color: var(--hover-color-links);
+}
+
 /* Шапка_Контакти */
 
 /* List-style-елемент який (прибирає маркування у списку) та задає 
